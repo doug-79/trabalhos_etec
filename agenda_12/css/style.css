@@ -1,0 +1,18 @@
+body {
+    color: #fff    ;
+    font-family: Courier, "Courier New", monospace;
+    background-color: #000;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+img {
+    width: 200px;
+    height: 100px;
+}
+.negrito {
+    font-weight: bold;
+}
