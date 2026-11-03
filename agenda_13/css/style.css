@@ -1,0 +1,29 @@
+body{ /*Aspectos do corpo*/
+background-color: black;
+color: white;
+width: 600px;
+height: 600px;
+flex-direction: row;
+display: flex;
+align-items: stretch;
+justify-content: justify;
+text-align: justify;
+font-family: Courier, "Courier New", monospace;
+margin-left: 20px;
+margin-right:20px;
+gap: 10px;
+
+}
+.img_stryper /*tamanho da imagem da capa do disco do stryper*/
+{
+width: 600px;
+height: 600px;
+}
+
+.img_xfies /*tamanho da imagem do xfiles*/
+{
+width: 600px;
+height: 300px;
+}
+
+

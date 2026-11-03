@@ -1,0 +1,25 @@
+# Registro de Interação com Inteligência Artificial – Agenda 13
+
+**Etapa 1 – Estrutura HTML**
+
+Solicitei à IA uma revisão da estrutura HTML para verificar a utilização das tags `<div>`, `<h1>` e `<img>`.
+
+A IA identificou que a estrutura estava organizada, mas recomendou evitar o uso de `<span>` envolvendo elementos de bloco e utilizar títulos hierarquizados com `<h1>` e `<h2>`.
+
+**Etapa 2 – CSS Interno e Externo**
+
+Solicitei orientações sobre a utilização de classes e IDs para diferenciar e padronizar as seções.
+
+A IA explicou a diferença entre classes e IDs e recomendou utilizar classes para padronizar os blocos de conteúdo e IDs para identificar elementos específicos.
+
+Também recomendou organizar corretamente a ordem de carregamento dos arquivos CSS.
+
+**Etapa 3 – Flexbox**
+
+Solicitei ajuda para organizar as três seções utilizando Flexbox.
+
+A IA identificou valores inválidos nas propriedades `align-items` e `justify-content` e recomendou criar um container com `display: flex`, `gap` e `flex-wrap` para organizar as colunas e permitir a adaptação a telas menores.
+
+**Conclusão**
+
+A utilização da Inteligência Artificial ajudou a identificar erros, melhorar a organização do código e compreender melhor os conceitos de HTML, CSS e Flexbox.

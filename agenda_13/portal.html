@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS Externo linkado (Requisito 3) -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Links do Google Fonts Corrigidos -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- CSS Interno dentro do <head> (Requisito 2) -->
+    <style>
+      /* Define a fonte pixelizada para todo o documento */
+      h1, p, span, div {
+        font-family: 'Press Start 2P', monospace !important;margin-left: 10px;
+margin-right:10px;
+      }
+      /* Reduz o tamanho das fontes no geral para não estourarem a tela */
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 1.8;
+      }
+    </style>
+    
+    <title>Meu Portal de Entretenimento Digital</title>
+</head>
+<body>
+
+<!-- Usando uma classe definida no CSS Externo -->
+<div class="bloco-conteudo">
+    <h1>Meu seriado favorito</h1><br>
+    <img class="img_xfies" src="image/xfiles.png" alt="Arquivo X">
+    <p class="texto-quadrado">The X-Files (Brasil: Arquivo X / Portugal: Ficheiros Secretos) é uma série de televisão norte-americana de ficção científica criada por Chris Carter.
+A série foi exibida originalmente entre 10 de setembro de 1993 e 19 de maio de 2002, no canal norte-americano Fox, e em um reavivamento de duas temporadas
+adicionais exibidas entre 24 de janeiro de 2016 e 21 de março de 2018. Além da série de TV, dois filmes integram sua franquia: The X-Files, lançado em 1998,
+que ajuda a explorar a história maior narrada pela série e The X-Files: I Want to Believe, lançado em 2008, que serve apenas como um evento episódico.</p> 
+    <img class="img_xfies" src="image/xfiles2.png" alt="Arquivo X">
+
+</div>
+
+<div class="bloco-conteudo">
+    <!-- CSS Inline aplicado no elemento span (Requisito 1) -->
+    <span style="color: yellow; display: block;border-left: 2px solid #ccc;border-right: 2px solid #ccc; padding-left: 10px;padding-right: 10px;">
+        <h1>Minha banda favorita</h1><br>
+        <img class ="img_stryper" src="image/tohell.jpeg" alt="Stryper">
+        <p>Stryper é uma banda de metal cristão da Califórnia. Foi fundada no início da década de 1980 com o nome Roxx Regime pelo irmãos Robert (bateria) e Michael Sweet (vocais),
+        acompanhados de Eric Johnson no baixo. C.C. DeVille (Poison) e Doug Aldrich foram guitarristas da banda nesse período. A banda logo alcançou sucesso devido ao seu estilo
+        Glam Metal e letras com temática cristã (algo pouco difundido entre a cena metal da época). Uma demo foi gravada em 1982 como forma de divulgação da banda.</p>
+           <img src="image/stryper1.jpg" alt="Stryper">
+      </span>
+</div>
+
+<div class="bloco-conteudo">
+    <h1>Meu Game favorito</h1><br>
+    <!-- CSS Inline aplicado diretamente no parágrafo do título do jogo (Requisito 1) -->
+    <p style="color: #ff0055; font-weight: bold; font-size: 16px; ">DOUGVADERS</p>
+    <img src="image/tela1.jpeg" width="300" height="400" alt="Jogo">
+    <p>Game baseado no classico space invaders(1978). Elaborado como trabalho acadêmico do curso de Tecnologia em Jogos Digitais pela Universidade Cruzeiro do sul</p>
+   <a href="https://www.youtube.com/shorts/_hBNqum_dhg" target="_blank" class="botao-youtube">
+  Assista ao Gameplay no YouTube ↗
+      <img src="image/dougv1.jpeg" width="300" height="400" alt="Jogo">
+
+</a>
+   
+
+</div>
+
+</body>
+</html>
