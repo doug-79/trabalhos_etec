@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOUGVADERS</title>
+    
+    <!-- Fonte 8-bit -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    
+    <!-- CSS local do Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Seu CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- MENU NO TOPO À ESQUERDA -->
+    <nav class="menu-topo">
+        <a href="#perfil">PERFIL</a>
+        <a href="#projetos">PROJETOS</a>
+        <a href="#contatos">CONTATOS</a>
+    </nav>
+
+    <h1 class="text-center my-4">DOUGVADERS GAMEDEV</h1>
+    
+    <p class="descricao">
+        Site dedicado a registrar a trajetória da criação dos meus jogos desde o início. Aqui compartilho todo o processo de desenvolvimento: código, pixel art, produção musical, acertos, desafios e o aprendizado de cada projeto.
+    </p>
+
+    <!-- CARROSSEL -->
+    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/dougvaders.png" class="d-block w-100" alt="Jogo Dougvaders">
+            </div>
+            <div class="carousel-item">
+                <img src="image/jogo_da_velha.png" class="d-block w-100" alt="Jogo da Velha">
+            </div>
+            <div class="carousel-item">
+                <img src="image/mata_rato.png" class="d-block w-100" alt="Jogo Mata Rato">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- SEÇÕES DE CONTEÚDO ABAIXO -->
+    <main class="conteudo-secoes">
+        
+        <section id="perfil" class="secao-box">
+            <h2>PERFIL</h2>
+            <p>
+Sou um futuro desenvolvedor de jogos e apaixonado pelo universo dos games, especialmente pela estética retrô, pixel art e pelas clássicas trilhas sonoras 8-bit.
+
+Tenho interesse na criação de jogos e no desenvolvimento de experiências interativas, explorando tecnologias como **Unity, Godot, C# e Python**.
+
+Minha inspiração vem dos jogos clássicos de arcade, como Space Invaders, Galaga e Galaxian, que despertaram meu interesse pela programação e pelo desenvolvimento de games.
+
+Meu objetivo é aprimorar constantemente minhas habilidades, transformar ideias em projetos e criar jogos que tragam um pouco da nostalgia dos fliperamas para novas gerações.            </p>
+        </section>
+
+        <section id="projetos" class="secao-box">
+            <h2>PROJETOS</h2>
+            <p>
+                <strong>1. Dougvaders:</strong> Jogo de nave estilo arcade retrô com sistema de vidas e pontuação.<br><br>
+                <strong>2. Jogo da Velha:</strong> Versão clássica desenvolvida para praticar lógica de programação.<br><br>
+                <strong>3. Mata Rato:</strong> Jogo de reflexo rápido com contagem de acertos.
+            </p>
+        </section>
+
+        <section id="contatos" class="secao-box">
+            <h2>CONTATOS</h2>
+            <p>
+        GitHub: <a href="https://github.com/doug-79" target="_blank" rel="noopener noreferrer" class="link-contato">github.com/doug-79</a><br><br>
+        E-mail: <a href="mailto:douglas12997065910@gmail.com" class="link-contato">douglas12997065910@gmail.com</a><br><br>
+        Itch.io: <a href="https://doug-79.itch.io/" target="_blank" rel="noopener noreferrer" class="link-contato">doug-79.itch.io</a>
+    </p>
+        </section>
+
+    </main>
+
+    <!-- JavaScript local do Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

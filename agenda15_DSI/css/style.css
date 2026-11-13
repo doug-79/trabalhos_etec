@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth; /* Faz a página deslizar suavemente ao clicar no menu */
+}
+
+html, body {
+    background-color: black;
+    color: blueviolet;
+    font-family: 'Press Start 2P', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu no topo à esquerda */
+.menu-topo {
+    display: flex;
+    justify-content: flex-start; /* Alinha à esquerda */
+    gap: 25px; /* Espaço entre os links */
+    padding: 20px 30px;
+    background-color: #0d001a; /* Fundo roxo bem escuro para destacar o topo */
+    border-bottom: 2px solid blueviolet;
+}
+
+.menu-topo a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.menu-topo a:hover {
+    color: #00ff66; /* Verde neon estilo arcade ao passar o mouse */
+    text-shadow: 0 0 8px #00ff66;
+}
+
+.descricao {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding: 0 15px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+#meuCarrossel {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    border: 4px solid blueviolet;
+    background-color: #000;
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: contain;
+    background-color: #000;
+}
+
+/* Caixas das seções Perfil, Projetos e Contatos */
+.conteudo-secoes {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    padding: 0 15px;
+}
+
+.secao-box {
+    border: 3px solid blueviolet;
+    padding: 25px;
+    margin-bottom: 35px;
+    background-color: #080010;
+}
+
+.secao-box h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #00ff66; /* Destaque retrô nos subtítulos */
+}
+
+.secao-box p {
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+}
+
+/* Efeito hover nos links de contato */
+.link-contato {
+    color: blueviolet;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link-contato:hover {
+    color: #00ff66;
+    text-shadow: 0 0 8px #00ff66;
+}
