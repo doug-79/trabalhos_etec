@@ -6,7 +6,7 @@
 
 **Repositório:** https://github.com/doug-79/trabalhos_etec
 
-**Site publicado (GitHub Pages):** COLOQUE_AQUI_O_LINK_DO_SITE
+**Site publicado (GitHub Pages):** https://doug-79.github.io/trabalhos_etec/agenda15_DSI
 
 ---
 
